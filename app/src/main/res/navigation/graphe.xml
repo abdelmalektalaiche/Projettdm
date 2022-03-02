@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/graphe"
+    app:startDestination="@id/fragment1">
+
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="dz.yousra.miniprojettdm.fragments.HomeFragment"
+        android:label="Acceuil">
+        <action
+            android:id="@+id/action_homeFragment_to_deatailsFragment"
+            app:destination="@id/deatailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/deatailsFragment"
+        android:name="dz.yousra.miniprojettdm.fragments.DeatailsFragment"
+        android:label="DeatailsFragment" />
+    <fragment
+        android:id="@+id/fragment5"
+        android:name="dz.yousra.miniprojettdm.fragments.ProfilFragment"
+        android:label="ProfilFragment" />
+    <fragment
+        android:id="@+id/authentificationFragment"
+        android:name="dz.yousra.miniprojettdm.fragments.AuthentificationFragment"
+        android:label="Profile">
+        <action
+            android:id="@+id/action_authentificationFragment_to_profilFragment"
+            app:destination="@id/fragment5" />
+        <action
+            android:id="@+id/action_authentificationFragment_to_authentificationMobileFragment2"
+            app:destination="@id/authentificationMobileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/authentificationMobileFragment"
+        android:name="dz.yousra.miniprojettdm.fragments.AuthentificationMobileFragment"
+        android:label="AuthentificationMobileFragment" >
+        <action
+            android:id="@+id/action_authentificationMobileFragment_to_profilFragment"
+            app:destination="@id/fragment5" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment3"
+        android:name="dz.yousra.miniprojettdm.fragments.OrderFragment"
+        android:label="Ordonnance" />
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="dz.yousra.miniprojettdm.fragments.ReserchFragment"
+        android:label="Recherche" />
+    <fragment
+        android:id="@+id/fragment4"
+        android:name="dz.yousra.miniprojettdm.fragments.TreatementsFragment"
+        android:label="Traitements" />
+</navigation>

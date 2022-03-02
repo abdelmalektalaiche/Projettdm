@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/fragment1"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="Acceuil"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/fragment2"
+        android:enabled="true"
+        android:icon="@drawable/ic_location"
+        android:title="Recherche"
+        android:visible="true" />
+
+
+    <item
+        android:id="@+id/fragment3"
+        android:enabled="true"
+        android:icon="@drawable/ic_prescription"
+        android:title="Ordonnance"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/fragment4"
+        android:enabled="true"
+        android:icon="@drawable/ic_prescription"
+        android:title="Traitements"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/fragment5"
+        android:enabled="true"
+        android:icon="@drawable/ic_prescription"
+        android:title="Profile"
+        android:visible="true" />
+</menu>

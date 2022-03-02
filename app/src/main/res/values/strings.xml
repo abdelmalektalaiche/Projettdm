@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">PharmaPocket</string>
+
+    <!--Info Pharmacie-->
+    <string name="home_page_pharmacy_name">Nom de la pharmacie</string>
+    <string name="home_page_pharmacy_number">Numéro de la pharmacie</string>
+    <string name="home_page_pharmacy_address">Adresse de la pharmacie</string>
+
+    <!--Page d'acceuil-->
+    <string name="home_page_title">Acceuil</string>
+    <string name="home_page_researchBar_input">Taper le nom d\'une ville</string>
+
+
+    <!--Page de détails d'une pharmacie-->
+    <string name="detail_page_title">Détails</string>
+    <string name="detail_page_pharmacy_description">Ceci est une description de la pharmacie Nom de la pharmacie</string>
+    <string name="detail_page_pharmacy_facebook">Facebook de la pharmacie</string>
+
+    <!--Page de recherche de pharmacie-->
+    <string name="research_page_title">Recherche de pharmacies</string>
+    <string name="research_page_question">Trouver des pharmacies proches de vous</string>
+    <string name="research_page_option1">5km</string>
+    <string name="research_page_option2">10km</string>
+    <string name="research_page_option3">15km</string>
+    <string name="research_page_button">Ma position</string>
+
+
+    <!--Page d'Ordonnances'-->
+    <string name="prescription_page_title">Ordonnnaces</string>
+    <string name="prescription_page_camera_input">Caméra</string>
+    <string name="prescription_page_Galery_input">Galerie</string>
+    <string name="prescription_page_myPrescription_input">Mes Ordonnnaces</string>
+
+    <!--Page Profil-->
+    <string name="profile_page_title1">Authentification</string>
+    <string name="profile_page_email_input">Email</string>
+    <string name="profile_page_password_input">Mot de passe</string>
+    <string name="profile_page_enter_button">Entrer</string>
+    <string name="profile_password_forgotten">Mot de passe oublié?</string>
+    <string name="profile_page_login_alternative">Connectez vous en utilisant le numéro de télépone</string>
+    <string name="profile_page_phoneNumber_input">Numéro de téléphone</string>
+
+    <string name="profile_page_title2">Profil</string>
+    <string name="profile_page_disconnect_button">Déconnecter</string>
+    <string name="profile_page_disconnection_text">Vous êtes connectés à votre compte, déconnectez-vous ici</string>
+
+</resources>
