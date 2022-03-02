@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
-        //injecter le fragment dans notre boite
+        //injecter haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaale fragment dans notre boite
        /* val transaction=supportFragmentManager.beginTransaction()
        transaction.replace(R.id.fragmentContainer,HomeFragment())
         transaction.addToBackStack(null)
